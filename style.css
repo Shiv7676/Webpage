@@ -1,0 +1,134 @@
+.container_main{
+    display: flex;
+    flex-direction: column;
+}
+.container_a{
+    background-color: #FFCD9E;
+    display: flex;
+    height: 67vh;
+}
+.container1{
+    width: 50%;
+    position: relative;
+}
+
+.container2{
+    position: relative;
+    width: 50%;
+}
+
+.container_b{
+    height: 33vh;
+    background-color:#282828;
+    position: relative;
+}
+
+.item1{
+    position: absolute;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-size: 36px;
+    color: #282828;
+    margin-top: 7%; 
+    margin-left: 15%;  
+    width: 80%;
+}
+
+.item2{
+    position: absolute;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #484848;
+    margin-left: 15%;
+    margin-top: 22%;
+    width: 70%;
+}
+
+.item3{
+    color: #282828;
+    position: absolute;
+    font-weight: 800;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-left: 15%;
+    width: 35%;
+    margin-top: 38%;
+}
+
+.item4{
+    position: absolute;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #888888;
+    margin-left: 15%;
+    width: 47%;
+    height: 4%;
+    border: solid 4px #000000 ;
+    border-radius: 8px;
+    margin-top: 48%;
+    padding: 2%;
+}
+
+.item5{
+    border-radius: 8px;
+    background-color: #000000;
+    position: absolute;
+    width: 30%;
+    height: 11.5%;
+    padding-bottom: 1%;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 20px;
+    
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 68%;
+    margin-top: 48%;
+}
+.item6{
+    position: absolute;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 15%;
+    width: 47%;
+    text-align: center;
+    margin-top: 58%;
+}
+.item{
+    height: 97%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 12%;
+    width: 80%;
+    mix-blend-mode: multiply;   
+}
+
+ul.no-bullets{
+    list-style-type: none ;
+    
+}
+
+.itemb{
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Inter';
+    line-height: 1.8em;
+    margin-left: 7%;
+    margin-top: 1%;
+    font-size: 20px;
+}
+.itemc{
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Inter';
+    line-height: 1.8em;
+    margin-left: 70%;
+    margin-top: 1%;
+    font-size: 20px;
+}
